@@ -68,9 +68,9 @@ unit_tests:
   stage: test
   coverage: /All files[^|]*\|[^|]*\s+([\d\.]+)/
   script:
-    - 'pnpm run coverage'
+    - "pnpm run coverage"
   cache:
-    key:  $CI_COMMIT_REF_SLUG
+    key: $CI_COMMIT_REF_SLUG
     paths:
       - coverage/
   artifacts:
@@ -97,4 +97,3 @@ unit_tests:
   #     - "./jest.config.js"
   #     - "./jest.setup.js"
   #     - "./pnpm-lock.yaml"
-

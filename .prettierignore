@@ -33,3 +33,5 @@ coverage
 
 ### END .gitignore ###
 .gitignore
+
+*-lock.yaml

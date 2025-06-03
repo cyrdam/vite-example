@@ -6,4 +6,19 @@ export default {
 	endOfLine: 'lf',
 	tabWidth: 2,
 	useTabs: true,
+	overrides: [
+		{
+			files: ['*.yml', '*.yaml', '*.css'],
+			options: {
+				singleQuote: false,
+			},
+		},
+		{
+			files: ['package.json'],
+			options: {
+				useTabs: false,
+				singleQuote: false,
+			},
+		},
+	],
 };
