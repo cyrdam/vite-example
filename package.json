@@ -22,7 +22,7 @@
 	"devDependencies": {
 		"@commitlint/cli": "^19.8.1",
 		"@commitlint/config-conventional": "^19.8.1",
-		"@eslint/js": "^9.28.0",
+		"@eslint/js": "^9.36.0",
 		"@preact/preset-vite": "^2.10.1",
 		"@testing-library/jest-dom": "^6.6.3",
 		"@testing-library/preact": "^3.2.4",
