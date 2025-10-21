@@ -39,7 +39,7 @@
 		"prettier": "^3.5.3",
 		"typescript": "^5.8.3",
 		"typescript-eslint": "^8.33.1",
-		"vite": "^6.3.5",
+		"vite": "^6.4.1",
 		"vitest": "^3.2.0",
 		"vitest-dom": "^0.1.1"
 	}
